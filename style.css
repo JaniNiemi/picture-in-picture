@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Ehoundstooth%3C/title%3E%3Cg fill='%23590000' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 18h6l6-6v6h6l-6 6H0M24 18v6h-6M24 0l-6 6h-6l6-6M12 0v6L0 18v-6l6-6H0V0'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.button-container {
+    border: 2px solid #666;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0 20px 4px -17px rgba(255, 255, 255, .7);
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    min-width: 120px;
+    min-height: 75px;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 3.5rem;
+    color: #fdfdfd;
+    text-shadow: 0 2px 4px black;
+    background: linear-gradient(to top, #525252, #2e2e2e);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: inset 0 20px 4px -17px rgba(255, 255, 255, .4), 0 12px 12px 0 rgba(0, 0, 0, .3);
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #525252, #2e2e2e);
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .3);
+}
